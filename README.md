@@ -3,10 +3,11 @@ Returns A list of coordinates, from the exit point to the entrance point. The fi
 
 Question
 We have a maze:
-- | - | W | - | -
-- | E | W | - | -
-- | W | X | - | -
-- | - | - | - | -
+| - | - | W | - | - |
+| - | E | W | - | - |
+| - | W | X | - | - |
+| - | - | - | - | - |
+
 E represents the entry; W represents impassible walls and X represents the exit of the maze. Your goal is to write a function "escape", to escape the maze.
 Coordinate has the format of (row, column). In this example, the top-left corner has the coordinate of (0, 0), while the bottom-right corner has the coordinate of (3, 4).
 
